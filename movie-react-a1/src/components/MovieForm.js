@@ -13,9 +13,9 @@ function MovieForm(props) {
     const handleSubmit = e => {
         e.preventDefault();
 
-        // props.onSubmit({
-        //     text: input
-        // })
+        props.onSubmit({
+            text: input
+        })
 
         setInput("");
     };
